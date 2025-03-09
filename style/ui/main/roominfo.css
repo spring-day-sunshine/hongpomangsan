@@ -1,0 +1,59 @@
+.roomTitle {
+    font-size: 1.2rem;
+    padding: 1rem 0 8px 0;
+}
+
+.roomHave {
+    padding: 8px 0;
+    color: black;
+}
+
+.roomsContainer {
+    display: grid;
+    width: inherit;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 60px;
+}
+@media (max-width: 960px) {
+    .roomsContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.roomContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.reservation_naver {
+    align-self: end;
+    margin-top: 16px;
+    padding: 12px 32px;
+    background-color: #0dab3c;
+    color: #ffffff;
+    border: 0;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.reservation_naver:hover {
+    background-color: #0c9235;
+    transition: 0.2s;
+}
+
+.reservation_naver:active {
+    position: relative;
+    left: 1px;
+    top: 1px;
+    transition: 0.2s;
+}
+
+.roominfo-discription {
+    margin: 40px;
+    text-align: center;
+}

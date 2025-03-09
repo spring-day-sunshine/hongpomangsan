@@ -1,0 +1,25 @@
+section.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 8px 20px;
+}
+
+.summary_text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 840px;
+    width: 100%;
+    text-align: center;
+}
+
+.summary_text_subject {
+    color: var(--primary-400);
+    font-weight: 600;
+}
+
+.goNaverMap {
+    color: var(--naver);
+}

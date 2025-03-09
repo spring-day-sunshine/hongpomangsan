@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/setting/reset.css" />
+    <link rel="stylesheet" href="style/setting/font.css" />
+    <link rel="stylesheet" href="style/setting/variable.css" />
+    <link rel="stylesheet" href="style/setting/basic.css" />
+    <link rel="stylesheet" href="style/ui/nav/nav.css" />
+    <link rel="stylesheet" href="style/ui/header/header.css" />
+    <link rel="stylesheet" href="style/ui/main/common_main.css" />
+    <link rel="stylesheet" href="style/ui/main/common_section.css" />
+    <link rel="stylesheet" href="style/ui/main/summary.css" />
+    <link rel="stylesheet" href="style/ui/main/externalview.css" />
+    <link rel="stylesheet" href="style/ui/main/roominfo.css" />
+    <link rel="stylesheet" href="style/ui/main/nearby.css" />
+    <link rel="stylesheet" href="style/ui/main/resrvation.css" />
+    <link rel="stylesheet" href="style/ui/main/map.css" />
+    <link rel="stylesheet" href="style/ui/footer/footer.css" />
+
+    <title>홍포망산펜션</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-body fixed-top w-100">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="#">홍포망산펜션</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item p-2">
+              <a class="nav-link" aria-current="page" href="#externalview"
+                >외부전경</a
+              >
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#roomInfo">객실정보</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#nearby">주변명소</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <a>홍포망산펜션</a>
+            <a>외부전경</a>
+            <a>객실정보</a>
+            <a>주병명소</a>
+        </nav> -->
+    <header>
+      <img
+        class="header_img_cover"
+        src="img/header/img_cover.jpg"
+        alt="전경사진"
+      />
+      <div class="header_info">
+        <h1>홍포망산펜션</h1>
+        <p>거제도 경치중 가장 멋진 남부면 홍포 앞바다 망산펜션!</p>
+      </div>
+    </header>
+
+    <div class="my-container">
+      <main>
+        <section class="summary">
+          <div class="summary_text">
+            <p class="summary_text_subject">홍포망산펜션 / 거제도 펜션</p>
+            <p>
+              거제도 경치중 가장 멋진 남부면 홍포 앞바다의 망산에서 최고의
+              경치를 느껴보세요. 앞바다 바로 앞에 있는 저희 홍포망상펜션에서
+              일몰도 감상하시고 친절하고 넉넉한 인심을 느껴 보세요.
+            </p>
+            <a
+              target="_blank"
+              class="goNaverMap"
+              href="https://naver.me/xUwsLke7"
+              >네이버 지도로 보기</a
+            >
+          </div>
+        </section>
+        <section id="externalview" class="externalview">
+          <h2 class="section_title">외부전경</h2>
+          <div class="externalview_text_container">
+            <p class="externalview_text_sub">거제도 펜션, 홍포망산펜션</p>
+            <p>
+              전객실 일몰감상이 가능하며,바로 뒤 망산 등산코스가 있어 등산하기도
+              좋습니다. 앞바다 있어 베란다에서 바다 전망 가능합니다.
+            </p>
+          </div>
+          <div class="externalview_imges">
+            <img
+              class="externalview_img"
+              src="img/main/externalview/1/externalview_0.jpeg"
+              alt="외부전경0"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/1/externalview_1.jpeg"
+              alt="외부전경1"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/1/externalview_2.jpeg"
+              alt="외부전경2"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/1/externalview_3.jpeg"
+              alt="외부전경3"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/1/externalview_4.jpeg"
+              alt="외부전경4"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/1/externalview_5.jpeg"
+              alt="외부전경5"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/1/externalview_6.jpeg"
+              alt="외부전경6"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/1/externalview_7.jpeg"
+              alt="외부전경7"
+            />
+          </div>
+          <div class="externalview_text_container">
+            <p class="externalview_text_sub">
+              1층 무인 라면 카페 운영중입니다.
+            </p>
+            <p>
+              음료 자판기와 라면조리기가 있습니다. 와이파이 무상제공, 핸드폰
+              충전, 즐거운 포토죤에서 낭만 기념 촬영하세요.
+            </p>
+          </div>
+          <div class="externalview_imges">
+            <img
+              class="externalview_img"
+              src="img/main/externalview/2ramen/externalview_1.jpeg"
+              alt="외부전경1"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/2ramen/externalview_2.jpeg"
+              alt="외부전경2"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/2ramen/externalview_3.jpeg"
+              alt="외부전경2"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/2ramen/externalview_4.jpeg"
+              alt="외부전경3"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/2ramen/externalview_5.jpeg"
+              alt="외부전경4"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/2ramen/externalview_6.jpeg"
+              alt="외부전경5"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/2ramen/externalview_7.jpeg"
+              alt="외부전경6"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/2ramen/externalview_1.jpeg"
+              alt="외부전경7"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/2ramen/externalview_8.jpeg"
+              alt="외부전경8"
+            />
+          </div>
+          <div class="externalview_text_container">
+            <p class="externalview_text_sub">
+              홍포망산펜션은 바로 앞이 홍포마을 버스 종점입니다
+            </p>
+          </div>
+          <div class="externalview_imges">
+            <img
+              class="externalview_img"
+              src="img/main/externalview/3bus/externalview_1.jpeg"
+              alt="외부전경1"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/3bus/externalview_2.jpeg"
+              alt="외부전경1"
+            />
+            <img
+              class="externalview_img"
+              src="img/main/externalview/3bus/externalview_4.jpeg"
+              alt="외부전경1"
+            />
+          </div>
+        </section>
+
+        <section id="roomInfo" class="roomInfo">
+          <h2 class="section_title">객실정보</h2>
+          <div class="roominfo-discription">
+            <p>입실(체크인) : 15:00</p>
+            <p>퇴실(체크아웃) : 11:00</p>
+            <br />
+            <p>예약 후 전화 부탁드립니다</p>
+          </div>
+          <div class="roomsContainer">
+            <div
+              href="https://booking.naver.com/booking/3/bizes/949470/items/5211525"
+              target="_blank"
+              class="roomContainer"
+            >
+              <div
+                id="carouselExampleAutoplaying201"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-touch="true"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="/img/main/roominfo/201/1.jpeg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/201/2.jpeg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/201/3.jpeg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/201/4.jpeg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/201/5.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying201"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying201"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <h3 class="roomTitle">201호[1번룸] (2인실, 최대2인)</h3>
+              <p class="roomHave">
+                편의시설: 에어컨, 냉장고, 전자렌지, 전기포트, 밥솥, 식기,
+                와이파이
+              </p>
+              <a
+                class="reservation_naver"
+                href="https://booking.naver.com/booking/3/bizes/949470/items/5211525"
+                target="_blank"
+              >
+                네이버 예약하러가기
+              </a>
+            </div>
+            <div class="roomContainer">
+              <div
+                id="carouselExampleAutoplaying202"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-touch="true"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="/img/main/roominfo/202/1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/202/2.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/202/3.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/202/4.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying202"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying202"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <h3 class="roomTitle">202호[2번룸] (2인실. 최대2인)</h3>
+              <p class="roomHave">
+                편의시설: 에어컨, 냉장고, 전자렌지, 전기포트, 밥솥, 식기,
+                와이파이
+              </p>
+              <a
+                href="https://booking.naver.com/booking/3/bizes/949470/items/5211539"
+                target="_blank"
+                class="reservation_naver"
+              >
+                네이버 예약하러가기</a
+              >
+            </div>
+            <div class="roomContainer">
+              <div
+                id="carouselExampleAutoplaying203"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-touch="true"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="/img/main/roominfo/203/1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/203/2.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/203/3.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/203/4.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/203/5.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying203"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying203"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <h3 class="roomTitle">203호[3번룸] (4인실. 최대6인)</h3>
+              <p class="roomHave">
+                편의시설: 에어컨, 냉장고, 전자렌지, 전기포트, 밥솥, 식기,
+                와이파이
+              </p>
+              <a
+                href="https://booking.naver.com/booking/3/bizes/949470/items/5211641"
+                target="_blank"
+                class="reservation_naver"
+              >
+                네이버 예약하러가기</a
+              >
+            </div>
+            <div class="roomContainer">
+              <div
+                id="carouselExampleAutoplaying301"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-touch="true"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="/img/main/roominfo/301/1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/301/2.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/301/3.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/301/4.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/301/5.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying301"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying301"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <h3 class="roomTitle">301호[4번룸] (2인실. 최대4인)</h3>
+              <p class="roomHave">
+                편의시설: 에어컨, 냉장고, 전자렌지, 전기포트, 밥솥, 식기,
+                와이파이
+              </p>
+              <a
+                href="https://booking.naver.com/booking/3/bizes/949470/items/5990984"
+                target="_blank"
+                class="reservation_naver"
+              >
+                네이버 예약하러가기</a
+              >
+            </div>
+            <div class="roomContainer">
+              <div
+                id="carouselExampleAutoplaying302"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-touch="true"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="/img/main/roominfo/302/1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/302/2.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/302/3.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/main/roominfo/302/4.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying302"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying302"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <h3 class="roomTitle">302호[5번룸] (2인실. 최대4인)</h3>
+              <p class="roomHave">
+                편의시설: 에어컨, 냉장고, 전자렌지, 전기포트, 밥솥, 식기,
+                와이파이
+              </p>
+              <a
+                href="https://booking.naver.com/booking/3/bizes/949470/items/5211667"
+                target="_blank"
+                class="reservation_naver"
+              >
+                네이버 예약하러가기</a
+              >
+            </div>
+          </div>
+          <p></p>
+        </section>
+
+        <section id="nearby" class="nearby">
+          <h2 class="section_title">주변 명소</h2>
+          <div class="naerby_container">
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/1.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">병대도 전망대</p>
+                <p>
+                  홍포망산펜션에서 걸어서 25분정도 걸린다/상시개방,전망대
+                  망원경,주차가능하다
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/search/%EA%B1%B0%EC%A0%9C%EB%B3%91%EB%8C%80%EB%8F%84%EC%A0%84%EB%A7%9D%EB%8C%80/place/38003118?c=15.00,0,0,0,dh&isCorrectAnswer=true"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/2.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">바람의 언덕</p>
+                <p>
+                  거제 명소 바람의 언덕/경상남도 거제시 남부면
+                  도장포마을/주차가능/연중무휴
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/entry/place/19796736?lng=128.663327&lat=34.7432915&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/3.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">거제근근포땅굴굴</p>
+                <p>
+                  거제근포마을 땅굴 인생삿찍기 좋은곳/경남 거제시 저구리
+                  450-1/주차가능/연중무휴
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/search/%EA%B1%B0%EC%A0%9C%20%EA%B7%BC%ED%8F%AC%EB%95%85%EA%B5%B4/place/1777930528?placePath=%3Fentry=pll%26from=nx%26fromNxList=true&c=15.00,0,0,0,dh"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/4.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">장사도</p>
+                <p>
+                  TV드라마 별에서 온 그대, 함부로 애틋하게 촬영지로 섬안에
+                  둘레길이이 잘되어있다.
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/entry/place/1953322536?c=15.00,0,0,0,dh"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/5.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">거제 남부면 수국 축제 6월월</p>
+                <p>
+                  매물도 여객선너터미널 및 저구항 일원/풍성하게 잘자란 수국이
+                  참으로 아릅답습니다.
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/entry/place/1953322536?c=15.00,0,0,0,dh"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/6.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">칸나정원원</p>
+                <p>
+                  거제 숨은 명소 홍포마을회관 바로 앞에 칸나정원은
+                  홍포망산펜션앞에서 100mm정도
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/search/%EA%B2%BD%EB%82%A8%20%EA%B1%B0%EC%A0%9C%EC%8B%9C%20%EB%82%A8%EB%B6%80%EB%A9%B4%20%EA%B1%B0%EC%A0%9C%EB%82%A8%EC%84%9C%EB%A1%9C%20727-18/address/14315627.1270666,4124043.1565409,%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EA%B1%B0%EC%A0%9C%EC%8B%9C%20%EB%82%A8%EB%B6%80%EB%A9%B4%20%EA%B1%B0%EC%A0%9C%EB%82%A8%EC%84%9C%EB%A1%9C%20727-18,new?c=19.00,0,0,0,dh&isCorrectAnswer=true"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/7.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">거제식물원</p>
+                <p>
+                  거제 정글돔 / 매주 월 휴무 / 주차가능 / 문의 055-639-6997 /
+                  입장료 있음
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/search/%EA%B1%B0%EC%A0%9C%20%EC%8B%9D%EB%AC%BC%EC%9B%90/place/1421813001?c=11.00,0,0,0,dh"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/8.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">명사해수욕장</p>
+                <p>
+                  경상남도 거제시 남부면 저구리에 있는 해수욕장. 적당한 수온과
+                  완만한 수심심
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/directions/-/14316129.0109909,4126790.253986,%EB%AA%85%EC%82%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5,13491035,PLACE_POI/-/car?c=15.00,0,0,0,dh"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/9.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">연꽃명소 추천 마하재활병원 연꽃쉼터</p>
+                <p>
+                  입장료무료 / 인근 갓길 주차 / 저구항 수국 보러가는길에 연꽃들
+                  보고 가세요.
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/entry/place/13550357?lng=128.6011802&lat=34.8068665&placePath=%2Fhome%3Fentry=pll&c=15.00,0,0,0,dh"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/10.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">매미성성</p>
+                <p>
+                  시민 백순삼씨가 태풍매미로 인한 자연재해를 막기위해 2003년부터
+                  지었다는 성
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/search/%EA%B1%B0%EC%A0%9C%EB%A7%A4%EB%AF%B8%EC%84%B1/place/38015249?c=15.00,0,0,0,dh"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/11.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">거가대교 휴게소 [가덕 휴게소]</p>
+                <p>
+                  부산-거제간 연결도로 홍보전시관 / 어린왕자 포토죤 / 천국의
+                  계단 포토죤 / 부산 해저터널
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/search/%EA%B1%B0%EA%B0%80%EB%8C%80%EA%B5%90%20%ED%9C%B4%EA%B2%8C%EC%86%8C/place/1122095040?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+
+            <div class="nearby_each_container">
+              <img src="/img/main/nearby/12.jpeg" alt="" class="neaby_img" />
+              <div class="naerby_discription">
+                <p class="neaby_name">거제 망산 등산 코스</p>
+                <p>
+                  입장료 무료 / 주차 인근 무료 / 등산소요시간 1시간 ~ 1시간 30분
+                  / 홍포마을 최단코스
+                </p>
+                <a
+                  target="_blank"
+                  class="goNaverMap"
+                  href="https://map.naver.com/p/search/%EB%A7%9D%EC%82%B0?c=15.00,0,0,0,dh"
+                  >위치정보</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>홍포망산펜션</p>
+        <p>대표자 : 안병길</p>
+        <p>주소 : 거제면 남부면 거제남서로 742</p>
+        <p>전화번호 : 055-633-1157</p>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script type="module" src="script/script.mjs"></script>
+</html>

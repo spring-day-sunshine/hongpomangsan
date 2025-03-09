@@ -1,0 +1,29 @@
+.reservation_discription {
+    text-align: center;
+}
+
+.reservation_button {
+    width: 100%;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #0dab3c;
+    color: #ffffff;
+    border: 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.reservation_button:hover {
+    background-color: #0c9235;
+    transition: 0.2s;
+}
+
+.reservation_button:active {
+    position: relative;
+    left: 1px;
+    top: 1px;
+    transition: 0.2s;
+}

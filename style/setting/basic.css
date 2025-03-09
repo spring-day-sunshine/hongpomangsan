@@ -1,0 +1,19 @@
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  color: var(--primary-400);
+}
+
+.my-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+body {
+  margin-top: 72px;
+}

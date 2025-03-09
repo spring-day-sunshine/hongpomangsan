@@ -1,0 +1,15 @@
+.my_nav {
+  position: fixed;
+  width: 100vw;
+  /*padding: 1.2rem;*/
+  height: 100px;
+  background-color: white;
+  opacity: 0.8;
+  backdrop-filter: blur(1rem);
+}
+.nav-container {
+  max-width: 1320px;
+}
+.navbar-brand {
+  margin-right: 68px;
+}

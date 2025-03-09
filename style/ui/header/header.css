@@ -1,0 +1,36 @@
+header {
+  position: relative;
+  /*min-height: 40vh;*/
+  min-height: 55vh;
+  /*max-height: 40vh;*/
+  width: 100%;
+  padding-top: 72px;
+}
+
+.header_img_cover {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: inherit;
+  height: inherit;
+  max-height: inherit;
+  object-fit: cover;
+  filter: brightness(0.9);
+  z-index: -1;
+}
+
+.header_info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  min-height: inherit;
+  height: inherit;
+  max-height: inherit;
+  padding: 20px;
+  color: var(--white);
+}
