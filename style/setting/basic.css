@@ -17,3 +17,7 @@ h3 {
 body {
   margin-top: 72px;
 }
+.phone a {
+  font-size: 1.2em;
+  font-weight: 700;
+}
